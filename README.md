@@ -52,7 +52,7 @@ Keycloak and OPA are deliberately out of MVP scope. Authorization here is a rela
 
 ## Status
 
-Actively designed and built as a portfolio project demonstrating multi-entity domain modeling, financial state correctness, payment provider abstraction, and resource-level authorization in Java/Spring — a companion piece to an existing Kotlin project ([Gatelog](#)) built to show range across the JVM ecosystem.
+Actively designed project demonstrating multi-entity domain modeling, financial state correctness, payment provider abstraction, and resource-level authorization in Java/Spring
 
 **First implementation milestone:** Account creation with at least one Guardian and one Dependent, enrolled in a Service, with an Invoice generated, a Payment recorded and allocated against it, producing a Receipt, visible in the Guardian portal.
 
